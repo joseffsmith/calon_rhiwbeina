@@ -86,10 +86,10 @@
 </style>
 <header>
 	<nav>
-	<a href="/brands" class="link '{segment === "brands" ? "selected" : ""}'"> Brands </a>
-	<a href="/about" class="link '{segment === "about" ? "selected" : ""}'"> About </a>
-	<a href="/blog" class="link '{segment === "blog" ? "selected" : ""}'"> Blog </a>
-	<a href="/contact" class="link '{segment === "contact" ? "selected" : ""}'"> Contact </a>
+	<a href="/brands/" class="link '{segment === "brands" ? "selected" : ""}'"> Brands </a>
+	<a href="/about/" class="link '{segment === "about" ? "selected" : ""}'"> About </a>
+	<a href="/blog/" class="link '{segment === "blog" ? "selected" : ""}'"> Blog </a>
+	<a href="/contact/" class="link '{segment === "contact" ? "selected" : ""}'"> Contact </a>
 	<span class="social-logo-wrapper">
 		<a href="https://en-gb.facebook.com/lonfach/">
 		<img alt="facebook" class="social-logo" src="assets/social_logos/facebook.png"/>
