@@ -1,0 +1,7 @@
+https://www.colorhexa.com/888888
+
+main_grey = #888888
+med_dark_grey = #777777
+dark_grey = #666666
+white = #ffffff
+blue = #116b88
