@@ -1,18 +1,18 @@
 {
-	"background_color": "#ffffff",
-	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"background_color": "#888",
+	"theme_color": "#666",
+	"name": "Calon Rhiwbeina",
+	"short_name": "Boutique shop in the north of Cardiff",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "logo-192.png",
+			"src": "static/assets/logo.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "logo-512.png",
+			"src": "static/assets/logo.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}

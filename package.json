@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "calonrhiwbeina",
+  "description": "Boutique shop in the north of Cardiff",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

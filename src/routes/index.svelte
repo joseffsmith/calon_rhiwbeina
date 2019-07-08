@@ -5,7 +5,6 @@
 </style>
 
 <svelte:head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Calon Rhiwbeina | Boutique shop in the heart of Cardiff</title>
 </svelte:head>
 
