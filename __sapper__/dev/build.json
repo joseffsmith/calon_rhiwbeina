@@ -2,22 +2,18 @@
   "bundler": "webpack",
   "shimport": null,
   "assets": {
-    "about": "723c28b743eee11dce92/about.about.js",
-    "blog": "723c28b743eee11dce92/blog.blog.js",
-    "blog_$slug": "723c28b743eee11dce92/blog_$slug.blog_$slug.js",
-    "brands": "723c28b743eee11dce92/brands.brands.js",
-    "contact": "723c28b743eee11dce92/contact.contact.js",
-    "index": "723c28b743eee11dce92/index.index.js",
-    "main": "723c28b743eee11dce92/main.js"
+    "about": "c0a04c7ae77f522748a2/about.about.js",
+    "brands": "c0a04c7ae77f522748a2/brands.brands.js",
+    "contact": "c0a04c7ae77f522748a2/contact.contact.js",
+    "index": "c0a04c7ae77f522748a2/index.index.js",
+    "main": "c0a04c7ae77f522748a2/main.js"
   },
   "css": {
     "chunks": {
       "index.svelte": [],
       "contact.svelte": [],
       "brands.svelte": [],
-      "about.svelte": [],
-      "blog/index.svelte": [],
-      "blog/[slug].svelte": []
+      "about.svelte": []
     }
   }
 }
