@@ -1,3 +1,31 @@
+<style>
+.img-brand-holder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.img-brand-holder img {
+  padding: 10px 10px 10px 10px;
+}
+section {
+  margin: 40px 0;
+}
+.divider {
+  border-bottom: 1px solid #777777;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.address {
+  color: #666666;
+  font-size: 16px;
+  padding: 0 5px 5px 10px;
+  margin: 10px 0;
+}
+</style>
+
 <svelte:head>
 	<title>About</title>
 </svelte:head>

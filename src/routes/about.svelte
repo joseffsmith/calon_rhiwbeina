@@ -1,3 +1,9 @@
+<style>
+.look-inside {
+  margin: 0 auto;
+  height: 50vh;
+}
+</style>
 <svelte:head>
 	<title>About</title>
 </svelte:head>

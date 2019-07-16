@@ -76,6 +76,7 @@
 			font-size: 20px;
 		}
 	}
+		
 	header img.logo {
 		max-width: 250px;
 		width: 100%;
