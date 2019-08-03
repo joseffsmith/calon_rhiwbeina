@@ -10,18 +10,18 @@
 
 	header { display: flex; padding: 3px; margin-right: 5px; height: 150px; justify-content: space-between; align-items: center; background: #888888; width: 100vw; line-height: 1; }
 	header nav { display: flex; flex-direction: column; flex-grow: 2; }
-	header nav .link { padding: 3px 0 1px 0px; border-bottom: 1px solid #ffffff; width: 82px; margin: 2px 2px 4px 2px; }
+	header nav .link { padding: 3px 0 1px 0px; border-bottom: 1px solid #b03060; width: 82px; margin: 2px 2px 4px 2px; }
 
 	header nav .link:hover,
-	header nav .link:focus { background: #777; }
+	header nav .link:focus { background: #fffd; color: #888 }
 
 	header nav .link:active, 
-	header nav .link.selected { background: #767676; }
+	header nav .link.selected { background: #fffb	; color: #888 }
 
 	header nav .social-logo-wrapper { padding: 2px 0 0 4px; }
 	header .right-hand { display: flex; flex-flow: column nowrap; align-items: flex-end; justify-content: space-around; padding-right: 5px; height: 100%; max-width: 60vw; }
 	header .right-hand .address { font-size: 12px; }
-	header .right-hand .address:hover { text-decoration: underline; }
+	header .right-hand .address:hover { text-decoration: underline; color:#b03060 }
 
 	@media screen and (min-width: 750px) {
 		header nav { flex-direction: row; justify-content: space-around; font-size: 20px; }
