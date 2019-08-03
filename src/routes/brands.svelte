@@ -17,13 +17,6 @@ section {
   width: 80%;
   margin: 0 auto;
 }
-
-.address {
-  color: #666666;
-  font-size: 16px;
-  padding: 0 5px 5px 10px;
-  margin: 10px 0;
-}
 </style>
 
 <svelte:head>
