@@ -10,7 +10,8 @@
   padding: 10px 10px 10px 10px;
 }
 section {
-  margin: 40px 0;
+	margin: 40px 0;
+	padding: 10px;
 }
 .divider {
   border-bottom: 1px solid #777777;

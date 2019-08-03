@@ -3,43 +3,28 @@
     display: inline-block;
   }
 
-.img-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-.img-col {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-.img-col img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-@media screen and (max-width: 1000px) {
-  .img-col {
-    flex: 33%;
-    max-width: 33%;
+  .img-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
   }
-}
-
-@media screen and (max-width: 700px) {
   .img-col {
-    flex: 50%;
-    max-width: 50%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
   }
-}
-
-@media screen and (max-width: 400px) {
-  .img-col {
-    flex: 100%;
-    max-width: 100%;
+  .img-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
   }
-}
 
+  @media screen and (max-width: 600px) {
+    .img-col {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
 </style>
 
 <svelte:head>
