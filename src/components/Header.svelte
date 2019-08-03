@@ -13,10 +13,10 @@
 	header nav .link { padding: 3px 0 1px 0px; border-bottom: 1px solid #ffffff; width: 82px; margin: 2px 2px 4px 2px; }
 
 	header nav .link:hover,
-	header nav .link:focus { background: #777777; }
+	header nav .link:focus { background: #777; }
 
 	header nav .link:active, 
-	header nav .link.selected { background: #666666; }
+	header nav .link.selected { background: #767676; }
 
 	header nav .social-logo-wrapper { padding: 2px 0 0 4px; }
 	header .right-hand { display: flex; flex-flow: column nowrap; align-items: flex-end; justify-content: space-around; padding-right: 5px; height: 100%; max-width: 60vw; }
@@ -28,23 +28,29 @@
 	}
 		
 	header img.logo { max-width: 250px; width: 100%; }
-	img.social-logo { max-width: 25px; }
-	#facebook:hover { color:#3f5765; }
+	a       .social-logo { max-width: 25px; min-width:25px;}
+	a:hover .social-logo { display:none; }
+	a       .social-logo.color { display: none;}
+	a:hover .social-logo.color { display: inline-block; }
+
 </style>
 <header>
 	<nav>
-	<a href="/brands/" class="link '{segment === "brands" ? "selected" : ""}'"> Brands </a>
-	<a href="/about/" class="link '{segment === "about" ? "selected" : ""}'"> About </a>
-	<a href="/blog/" class="link '{segment === "blog" ? "selected" : ""}'"> Blog </a>
-	<a href="/contact/" class="link '{segment === "contact" ? "selected" : ""}'"> Contact </a>
-	<span id="facebook" class="social-logo-wrapper">
-		<a href="https://en-gb.facebook.com/lonfach/">
+	<a href="/brands/" class="link {segment === "brands" ? "selected" : ""}"> Brands </a>
+	<a href="/about/" class="link {segment === "about" ? "selected" : ""}"> About </a>
+	<a href="/blog/" class="link {segment === "blog" ? "selected" : ""}"> Blog </a>
+	<a href="/contact/" class="link {segment === "contact" ? "selected" : ""}"> Contact </a>
+	<span class="social-logo-wrapper">
+		<a target="_blank" href="https://en-gb.facebook.com/lonfach/">
+		<img alt="facebook_color" class="social-logo color" src="assets/social_logos/facebook_color.png"/>
 		<img alt="facebook" class="social-logo" src="assets/social_logos/facebook.png"/>
 		</a>
-		<a id="twitter" href="https://twitter.com/calonrhiwbeina/">
+		<a target="_blank" href="https://twitter.com/calonrhiwbeina/">
+		<img alt="twitter_color" class="social-logo color" src="assets/social_logos/twitter_color.png"/>
 		<img alt="twitter" class="social-logo" src="assets/social_logos/twitter.png"/>
 		</a>
-		<a id="instagram" href="https://www.instagram.com/calonrhiwbeina/">
+		<a target="_blank" href="https://www.instagram.com/calonrhiwbeina/">
+		<img alt="instagram_color" class="social-logo color" src="assets/social_logos/instagram_color.png"/>
 		<img alt="instagram" class="social-logo" src="assets/social_logos/instagram.png"/>
 		</a>
 	</span>
