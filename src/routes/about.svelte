@@ -3,6 +3,9 @@
   margin: 0 auto;
   height: 50vh;
 }
+section {
+	padding:10px;
+}
 </style>
 <svelte:head>
 	<title>About</title>
