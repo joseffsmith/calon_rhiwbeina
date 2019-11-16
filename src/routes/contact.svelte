@@ -7,6 +7,9 @@
   function handleSubmit(event) {
     var form = event.target;
     var data = new FormData(form);
+    data.set('name', form.name.value)
+    data.set('email', form.email.value)
+    data.set('message', form.message.value)
     var xhr = new XMLHttpRequest();
     xhr.open('POST', '/', true)
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
