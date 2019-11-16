@@ -1,8 +1,7 @@
 static/assets/original_size_cover_images
+.DS_Store
+node_modules
 __sapper__
 dist
-.DS_Store
-yarn.lock
-yarn-error.log
-node_modules
-__sapper__/
+/runtime/app.mjs
+/runtime/server.mjs
