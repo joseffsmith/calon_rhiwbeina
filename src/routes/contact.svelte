@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>About</title>
+  <title>Calon Rhiwbeina | Contact</title>
 
 </svelte:head>
 

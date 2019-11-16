@@ -2,7 +2,7 @@
 
 </style>
 <svelte:head>
-	<title>Blog</title>
+	<title>Calon Rhiwbeina | Blog</title>
 </svelte:head>
 
 <h2> Coming soon! </h2>

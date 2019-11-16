@@ -8,7 +8,7 @@ section {
 }
 </style>
 <svelte:head>
-	<title>About</title>
+	<title>Calon Rhiwbeina | About</title>
 </svelte:head>
 
 <h2> About Calon Rhiwbeina </h2>
