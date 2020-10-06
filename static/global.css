@@ -2,7 +2,7 @@ body {
   color: #ffffff;
   font-family: 'Helvetica', sans-serif;
   letter-spacing: 1px;
-  background-color: #eee;
+  background-color: #fff;
   line-height: 1;
 }
 
@@ -11,13 +11,14 @@ h1 {
 }
 
 h2 {
-  color: #964c67;
+  color: #964c67aa;
   letter-spacing: 2px;
   font-size: 36px;
   width: 100%;
-  background-color: #ddd;
+  background-color: #fff;
   padding: 20px 0px 30px 20px;
   margin: 25px 0;
+  border-bottom: 2px solid;
 }
 
 h3 {

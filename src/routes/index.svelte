@@ -2,7 +2,6 @@
   img {
     display: inline-block;
   }
-
   .img-row {
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +17,6 @@
     vertical-align: middle;
     width: 100%;
   }
-
   @media screen and (max-width: 600px) {
     .img-col {
       flex: 50%;
