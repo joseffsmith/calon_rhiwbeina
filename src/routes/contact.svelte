@@ -3,27 +3,6 @@
 
 </svelte:head>
 
-<script>
-  function handleSubmit(event) {
-    var form = event.target;
-    var data = new FormData(form);
-    data.set('name', form.name.value)
-    data.set('email', form.email.value)
-    data.set('message', form.message.value)
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', '/', true)
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-
-    xhr.onreadystatechange = function() {
-      if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-          alert('Thank you for your message')
-      }
-    }
-    xhr.send(data);
-    
-  }
-</script>
-
 <style>
   .inverted { color: #888; font-size: 1.5em; }
 
@@ -64,24 +43,7 @@
       029 20610722
     </p>
   </div>
-  <div class="contact">
-    <h3>Get in touch</h3>
-    <form on:submit|preventDefault={handleSubmit} name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-      <p>
-        <label>Your name <input type="text" name="name" /></label>   
-      </p>
-      <p>
-        <label>Your email <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>Message <textarea name="message"></textarea></label>
-      </p>
-      <div data-netlify-recaptcha="true"></div>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
-  </div>
+
   <div class="where-we-are">
       <img alt="where are we?" src="/assets/where_are_we.png"/>
   </div>

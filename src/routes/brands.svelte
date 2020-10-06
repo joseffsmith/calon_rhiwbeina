@@ -39,7 +39,7 @@ section {
 <div class="divider"></div>
 
 <section>
-	<h3> Braintree </h3>
+	<h3> Thought </h3>
 	<p>
 		A natural clothing company based in London. 
 	</p>
@@ -48,7 +48,7 @@ section {
 	</p>
 </section>
 
-<div class="divider"></div>
+<!-- <div class="divider"></div>
 
 <section>
 	<h3> Saskia </h3>
@@ -66,9 +66,9 @@ section {
 	</p>
 </section>
 
-<div class="divider"></div>
+<div class="divider"></div> -->
 
-<div class="img-brand-holder">
+<!-- <div class="img-brand-holder">
 	<img alt="brand-image-braintree" src="assets/brand_logos/color/braintree.jpg">
 	<img alt="brand-image-kris-ana" src="assets/brand_logos/color/kris-ana.jpg">
 	<img alt="brand-image-lilyandme" src="assets/brand_logos/color/lilyandme.jpg">
@@ -77,4 +77,4 @@ section {
 	<img alt="brand-image-saskia" src="assets/brand_logos/color/saskia.jpg">
 	<img alt="brand-image-tempest" src="assets/brand_logos/color/tempest.jpg">
 	<img alt="brand-image-treaty" src="assets/brand_logos/color/treaty.jpg">
-</div>
+</div> -->
