@@ -51,13 +51,70 @@
     content="Calon Rhiwbeina - A boutique shop in the heart of Rhiwbeina, stylish, fashionable, affordable clothes.">
   <meta name="twitter:image" content="https://www.calonrhiwbeina.com/static/assets/logo.png">
 
-  <link rel="stylesheet" type="text/css" href="static/css/normalize.css">
 
-  <link rel='stylesheet' href='static/css/index.css'>
+  <link rel='stylesheet' href='/static/css/index.css'>
   <link rel='manifest' href='manifest.json'>
 
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+  <style>
+    .inverted {
+      color: #888;
+      font-size: 1.5em;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    section div {
+      flex: 1 0 0;
+      max-width: 100vw;
+      margin: 10px;
+    }
+
+    div img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    div.where-we-are {
+      min-width: 250px;
+      min-height: 250px;
+      max-width: 450px;
+    }
+
+    div.address {
+      min-width: 200px;
+    }
+
+    div.contact {
+      min-width: 300px;
+      min-height: 300px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .address {
+      font-size: 16px;
+    }
+
+    @media screen and (min-width: 600px) {
+      section {
+        flex-direction: row;
+        align-items: top;
+      }
+    }
+  </style>
 </head>
+
 
 <body>
 
@@ -65,7 +122,7 @@
     <nav>
       <a href="brands.html" class="link">Brands</a>
       <a href="about.html" class="link">About</a>
-      <a href="contact.html" class="link">Contact</a>
+      <a href="contact.html" class="link selected">Contact</a>
       <span class="social-logo-wrapper">
         <a target="_blank" href="https://en-gb.facebook.com/lonfach/">
           <img alt="facebook_color" class="social-logo color" src="static/assets/social_logos/facebook_color.png" />
@@ -89,33 +146,34 @@
         </a>
     </div>
   </header>
-
   <main>
-  <div class="img-row">
-    <div class="img-col">
-      <img alt="cover-image-1" class="cover" src="static/assets/cover_images_mk2/File 100001.png" />
-      <img alt="cover-image-2" class="cover" src="static/assets/cover_images_mk2/File 100002.png" />
-      <img alt="cover-image-3" class="cover" src="static/assets/cover_images_mk2/File 100003.png" />
-      <img alt="cover-image-4" class="cover" src="static/assets/cover_images_mk2/File 100004.png" />
-    </div>
-    <div class="img-col">
-      <img alt="cover-image-5" class="cover" src="static/assets/cover_images_mk2/File 100005.png" />
-      <img alt="cover-image-6" class="cover" src="static/assets/cover_images_mk2/File 100006.png" />
-      <img alt="cover-image-7" class="cover" src="static/assets/cover_images_mk2/File 100007.png" />
-      <img alt="cover-image-12" class="cover" src="static/assets/cover_images_mk2/File 100012.png" />
-    </div>
-    <div class="img-col">
-      <img alt="cover-image-9" class="cover" src="static/assets/cover_images_mk2/File 100009.png" />
-      <img alt="cover-image-10" class="cover" src="static/assets/cover_images_mk2/File 100010.png" />
-      <img alt="cover-image-11" class="cover" src="static/assets/cover_images_mk2/File 100011.png" />
-    </div>
-    <div class="img-col">
-      <img alt="cover-image-8" class="cover" src="static/assets/cover_images_mk2/File 100008.png" />
-      <img alt="cover-image-13" class="cover" src="static/assets/cover_images_mk2/File 100013.png" />
-      <img alt="cover-image-14" class="cover" src="static/assets/cover_images_mk2/File 100014.png" />
-    </div>
-  </div>
+    <h2>
+      Contact us
+    </h2>
+    <section>
+      <div class="address">
+        <h3>Address</h3>
+        <p>
+          <a class="address inverted"
+            href="https://www.google.com/maps/place/Calon+Rhiwbeina/@51.5222341,-3.2150158,17z/data=!3m1!4b1!4m5!3m4!1s0x486e1b9ac0dc4e51:0xfb1e9c2a87e2da07!8m2!3d51.5222341!4d-3.2128271">
+            9-11 Lon Fach,<br>
+            Rhiwbina,<br>
+            Cardiff,<br>
+            CF14 6DY<br>
+          </a>
+        </p>
+        <h3>Telephone</h3>
+        <p class="address inverted">
+          029 20610722
+        </p>
+      </div>
+
+      <div class="where-we-are">
+        <img alt="where are we?" src="static/assets/where_are_we.png" />
+      </div>
+    </section>
   </main>
+
 </body>
 
 </html>
