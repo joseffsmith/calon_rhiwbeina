@@ -1,0 +1,200 @@
+body {
+  color: #ffffff;
+  font-family: 'Helvetica', sans-serif;
+  letter-spacing: 1px;
+  background-color: #fff;
+  line-height: 1;
+}
+
+h1 {
+  color: #666666;
+}
+
+h2 {
+  color: #964c67aa;
+  letter-spacing: 2px;
+  font-size: 36px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0px 30px 20px;
+  margin: 25px 0;
+  border-bottom: 2px solid;
+}
+
+h3 {
+  color: #666666;
+  font-size: 25px;
+  padding: 0 0 5px 10px;
+  margin: 10px 0;
+  letter-spacing: 1.5px;
+}
+
+p {
+  color: #666666;
+  font-size: 16px;
+  padding: 0 10px 10px 10px;
+  margin: 10px 0;
+  line-height: 28px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 1000px;
+  background: #fff;
+  margin: 10px auto;
+  min-height: calc(100% - 200px);
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+
+header img.logo {
+  max-width: 250px;
+  width: 100%;
+}
+
+img.social-logo {
+  max-width: 25px;
+}
+
+header {
+  display: flex;
+  padding: 3px;
+  margin-right: 5px;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  background: #aaa;
+  width: 100vw;
+  line-height: 1;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+header nav .link {
+  padding: 3px 0px 1px 0px;
+  border-bottom: 1px solid #964c67aa;
+  width: 82px;
+  margin: 2px 2px 4px 2px;
+  border-radius: 1px;
+  line-height: 20px;
+}
+
+header nav .link:hover,
+header nav .link:focus {
+  transition: ease-out;
+  transition-duration: .6s;
+  transition-property: background-color;
+  color: #964c67;
+  transform-origin: bottom;
+}
+
+header nav .link:active,
+header nav .link.selected {
+  color: #964c67cc;
+}
+
+header nav .social-logo-wrapper {
+  padding: 2px 0 0 4px;
+}
+
+header .right-hand {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-right: 5px;
+  height: 100%;
+  max-width: 60vw;
+}
+
+header .right-hand .address {
+  font-size: 12px;
+}
+
+header .right-hand .address:hover {
+  text-decoration: underline;
+  color: #964c67aa;
+  transition: ease-out;
+  transition-duration: .6s;
+  transition-property: color;
+  transform-origin: bottom;
+}
+
+@media screen and (min-width: 750px) {
+  header nav {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+  }
+}
+
+header img.logo {
+  max-width: 250px;
+  width: 100%;
+}
+
+a .social-logo {
+  max-width: 25px;
+  min-width: 25px;
+  max-height: 25px;
+}
+
+a:hover .social-logo {
+  display: none;
+}
+
+a .social-logo.color {
+  display: none;
+}
+
+a:hover .social-logo.color {
+  display: inline-block;
+}
+
+img {
+display: inline-block;
+}
+
+.img-row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+.img-col {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.img-col img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+.img-col {
+  flex: 50%;
+  max-width: 50%;
+}
+}
