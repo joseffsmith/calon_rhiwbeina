@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'LibreBaskerville';
-  src: URL('../fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  src: URL('/static/fonts/LibreBaskerville-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'SourceSansPro';
-  src: URL('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+  src: URL('/static/fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
 
 body {
